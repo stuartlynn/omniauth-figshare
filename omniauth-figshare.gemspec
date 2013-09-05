@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = 'omniauth-figshare'
 
   s.add_runtime_dependency 'omniauth-oauth', '~> 1.0.1'
-  s.add_runtime_dependency 'multi_json', '~> 1.6.1'
+  s.add_runtime_dependency 'multi_json', '~> 1.7.9'
   s.add_development_dependency 'gemma', '~> 3.0.0'
 
   s.files       = Dir.glob('{lib,bin}/**/*.rb') + %w(README.rdoc)
